@@ -5,3 +5,5 @@ Today i learnt how to make a repository and initialise it on my local .
 I need to create repo in github and run 'git clone name_of_repository' on git bash and then create file that i want to push to remote .
 After this i need to add this to the staging area with 'git add .'
 'git push origin main' to push it to the main branch on the remote repository.
+Now that ive directly made changes on github i dont have it in my local copy so i need to run 'git pull origin main' on gitbash to get the changes that ive made .
+
