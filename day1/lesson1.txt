@@ -1,0 +1,6 @@
+Today is 26 th of febuary 2026 and i am starting to learn git again . ive been doing this for the last 3 years .
+Everytime i start it learn a few concepts and life comes in the way and i forget it .
+This time I will learn cyber security and coding python as its important for my fufture career .
+Today i learnt how to make a repository and initialise it on my local .
+I need to create repo in github and run git clone name_of_repository on git bash and then create file that i want to push to remote .
+
