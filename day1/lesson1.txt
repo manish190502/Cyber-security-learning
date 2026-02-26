@@ -7,3 +7,11 @@ After this i need to add this to the staging area with 'git add .'
 'git push origin main' to push it to the main branch on the remote repository.
 Now that ive directly made changes on github i dont have it in my local copy so i need to run 'git pull origin main' on gitbash to get the changes that ive made .
 
+
+Day 2 :
+
+Today im learning about branching.
+git checkout -b branchname creates a new branch and changes to that .
+im editing the same page as yesterday but this is a new branch .
+Now i will commit this branch to the previous one .
+
