@@ -1,24 +1,22 @@
 class toDo:
-    def __init__(self,assignment,priority):
-        self.priority = priority
-        self.assignment = assignment 
+    def __init__(self,):
+        self.newArray=[]
 
-    toDo_Lists = {}
-    def add_to_list(self):
-        print(self.priority,self.assignment)
+    
+    def add_to_list(self,assignment,priority):
+        self.newArray.append((priority,assignment))
 
-# l1 = toDo("gym",1)
-# l1.add_to_list()
-print("Welcome to my to do list app ")
-if (bool(input("Are you a new Customer ?"))):
-    name = input("Please tell us your name  0")
+    def printToDoList(self):
+        sorted_tasks = sorted(self.newArray,key=lambda task:task[1])  
+        print("Your To-Do List:")
+        for task, priority in sorted_tasks:
+            print(f"Assignment = {task} | Priority = {priority}") 
+        
+l1 = toDo()
+l1.add_to_list("food",1)
+l1.add_to_list("gym",2)
+l1.printToDoList()
 
-else:
-    name = input ("Please tell us your name 1 ")    
-
-assignment = input (" What work do you wnt me to put in the list ")
-priority = int(input("What is the priority"))
-toDo
 
 
         
