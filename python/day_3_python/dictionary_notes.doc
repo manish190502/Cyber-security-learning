@@ -1,0 +1,14 @@
+| Method                              | What it Does                                  | Example                       | Output                          |
+| ----------------------------------- | --------------------------------------------- | ----------------------------- | ------------------------------- |
+| **`dict.keys()`**                   | Returns all keys                              | `d.keys()`                    | `dict_keys(['a','b','c'])`      |
+| **`dict.values()`**                 | Returns all values                            | `d.values()`                  | `dict_values([1,2,3])`          |
+| **`dict.items()`**                  | Returns key-value pairs as tuples             | `d.items()`                   | `dict_items([('a',1),('b',2)])` |
+| **`dict.get(key, default)`**        | Access key safely; returns default if missing | `d.get('x', 0)`               | `0`                             |
+| **`dict.update(other_dict)`**       | Update dictionary with another dict           | `d.update({'b':20})`          | `{'a':1,'b':20}`                |
+| **`dict.pop(key)`**                 | Remove key and return value                   | `d.pop('a')`                  | `1`                             |
+| **`dict.popitem()`**                | Remove & return last key-value pair           | `d.popitem()`                 | `('b',20)`                      |
+| **`dict.clear()`**                  | Remove all items                              | `d.clear()`                   | `{}`                            |
+| **`dict.copy()`**                   | Returns shallow copy                          | `new = d.copy()`              | `{'a':1,'b':2}`                 |
+| **`dict.setdefault(key, default)`** | Get value; if missing, set default            | `d.setdefault('c',0)`         | Adds `'c':0`                    |
+| **`dict.fromkeys(keys, value)`**    | Create dict from keys                         | `dict.fromkeys(['x','y'], 0)` | `{'x':0,'y':0}`                 |
+
